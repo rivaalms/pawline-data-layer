@@ -1,0 +1,30 @@
+{
+  "name": "pawline-data-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "author": {
+    "name": "Riva Almero",
+    "email": "rivaalms@proton.me",
+    "url": "https://github.com/rivaalms"
+  },
+  "main": "./nuxt.config.ts",
+  "packageManager": "pnpm@9.14.2",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "clean": "rimraf ./.playground/.nuxt ./.playground/.output ./.playground/node_modules node_modules"
+  },
+  "devDependencies": {
+    "nuxt": "^3.14.1592",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2",
+    "vue": "latest"
+  }
+}
