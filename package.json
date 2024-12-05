@@ -8,6 +8,7 @@
     "url": "https://github.com/rivaalms"
   },
   "main": "./nuxt.config.ts",
+  "types": "./types/index.d.ts",
   "packageManager": "pnpm@9.14.2",
   "engines": {
     "node": ">=20"
