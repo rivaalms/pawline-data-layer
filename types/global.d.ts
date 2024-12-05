@@ -1,3 +1,5 @@
 import type { API } from './API/Response'
 
-export { API }
+declare global {
+   export { API }
+}
