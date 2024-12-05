@@ -1,5 +1,5 @@
 declare namespace API {
-   declare type Response<T> = {
+   type Response<T> = {
       meta: {
          success: boolean
          code: number
@@ -8,7 +8,7 @@ declare namespace API {
       data: T
    }
 
-   declare type Pagination<T> = {
+   type Pagination<T> = {
       current_page: number
       data: T
       from : number
