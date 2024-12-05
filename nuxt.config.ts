@@ -4,9 +4,7 @@ export default defineNuxtConfig({
 
    hooks: {
       'prepare:types'(ctx) {
-         ctx.references.push({
-            path: './types/index.d.ts'
-         })
+         ctx.references.push({ path: './types/global.d.ts' })
       }
    },
 
